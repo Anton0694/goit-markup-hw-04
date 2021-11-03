@@ -351,58 +351,52 @@ img {
 
 /* -------clients--------- */
 
-.clients-links-boxes {
-  display: inline-flex;
+/* .clients-links-boxes {
+  display: flex;
+ 
+  
+} */
+.clients-links {
+  display: flex;
   align-items: center;
-  border: 1px #afb1b8;
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
+  justify-content: center; 
+}
+.client-links-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  fill: #afb1b8;
+  width: 168px;
+  height: 90px;
   
 }
-
-.clients-links {
-  display: inline-flex;
-  
-  
+.clients-links-var:focus,
+.clients-links-var:hover {
+  border: 1px var(--accent-color);
+}
+.clients-links-var {
+  display: flex;
+  margin-right: 30xp;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 .clients-links-var:last-child {
   margin-right: 0;
 }
 
-.client-links-item {
-  
-  fill: #afb1b8;
-  
-}
 
-.client-links-item:focus,
-.client-links-item:hover {
-  border: 1px var(--accent-color);
-}
-
-
-.clients-links-var {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 30xp;
-}
-
-/* Portfolio body*/
+/*----------------- Portfolio body----------*/
 .btn-filter-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-
 .btn-filter-list .items-btn {
   margin-right: 8px;
 }
 .btn-filter-list .items:last-child {
   margin-right: 0;
 }
-
 .btn-filter-items {
   letter-spacing: 0.03em;
   font-size: 16px;
