@@ -372,12 +372,18 @@ img {
 }
 .clients-links-var:focus,
 .clients-links-var:hover {
-  border: 1px var(--accent-color);
+  border: 1px solid var(--accent-color);
+  
+}
+.client-links-item:hover,
+.client-links-item:focus {
+  fill: var(--accent-color);
+
 }
 .clients-links-var {
   display: flex;
-  margin-right: 30xp;
-  border: 1px solid black;
+  margin-right: 30px;
+  border: 1px solid #AFB1B8;
   border-radius: 4px;
 }
 .clients-links-var:last-child {
